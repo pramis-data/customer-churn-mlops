@@ -1,0 +1,3 @@
+case,row_index,actual_class,predicted_class,xgboost_churn_probability,shap_reconstructed_probability,raw_margin
+churn,2743,1,1,0.8302023410797119,0.8302022814750671,1.5870616436004639
+non_churn,141,0,0,0.09722097963094711,0.09722093492746353,-2.22849178314209

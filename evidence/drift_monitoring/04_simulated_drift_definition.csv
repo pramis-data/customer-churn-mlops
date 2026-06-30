@@ -1,0 +1,11 @@
+feature,operation,parameter,original_mean,drifted_mean
+tx_count,numeric_multiplier,0.75,1.2149278010753255,0.9111958508064942
+transaction_history_days,numeric_multiplier,0.85,6.7663015348213245,5.751356304598127
+days_since_last_transaction,numeric_multiplier,1.35,14.449798772565465,19.50722834296338
+is_auto_renew_mean,numeric_multiplier,0.7,0.9168808345357425,0.6418165841750201
+days_since_last_activity,numeric_multiplier,1.3,2.0848641054621893,2.710323337100846
+activity_history_days,numeric_multiplier,0.9,25.93141366233931,23.338272296105377
+log_count,numeric_multiplier,0.8,18.181611720837868,14.545289376670294
+plan_list_price_mean,numeric_multiplier,1.1,144.30287793962083,158.73316573358295
+actual_amount_paid_mean,numeric_multiplier,1.08,143.96790808346526,155.48534073014252
+latest_payment_method,categorical_concentration,25% of non-dominant categories moved to the dominant category,,

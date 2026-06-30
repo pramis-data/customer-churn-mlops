@@ -1,0 +1,4 @@
+research_question,analysis,main_outputs
+RQ1: How effectively does Azure AutoML predict churn compared with manual modelling?,Validation-stage comparison and final same-test comparison,10_validation_stage_comparison.csv; 11_final_same_test_comparison.csv
+RQ2: What global and local SHAP explanations can be generated?,"Grouped global importance, transformed beeswarm and two local waterfalls",20_manual_grouped_shap_importance.csv; 21_manual_grouped_shap_bar.png; 23_manual_waterfall_churn.png; 24_manual_waterfall_nonchurn.png
+How reliable is the final comparison?,"Same test records, bootstrap intervals, paired error comparison and SHAP probability verification",16_bootstrap_confidence_intervals.csv; 17_paired_error_comparison.csv; 25_manual_local_shap_consistency.csv

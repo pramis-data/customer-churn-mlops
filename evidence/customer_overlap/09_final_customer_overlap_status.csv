@@ -1,0 +1,2 @@
+status,pairwise_overlap_total,three_way_overlap_count,multi_split_customer_count,missing_or_invalid_customer_ids,unrecognised_split_labels,unique_customers
+PASSED,0,0,0,0,0,946686

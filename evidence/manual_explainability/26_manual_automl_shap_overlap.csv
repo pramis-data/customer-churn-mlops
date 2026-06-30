@@ -1,0 +1,2 @@
+manual_top_10,automl_top_10,shared_top_10,overlap_percentage,shared_features
+10,10,7,70.0,"actual_amount_paid_mean, days_since_last_activity, days_since_last_transaction, latest_payment_method, plan_list_price_mean, transaction_history_days, tx_count"

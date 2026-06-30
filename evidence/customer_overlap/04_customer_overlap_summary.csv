@@ -1,0 +1,5 @@
+comparison,first_unique_customers,second_unique_customers,overlapping_customers
+training_vs_validation,757348.0,94669.0,0
+training_vs_test,757348.0,94669.0,0
+validation_vs_test,94669.0,94669.0,0
+training_vs_validation_vs_test,,,0

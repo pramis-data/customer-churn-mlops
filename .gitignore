@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and models
+data/
+models/
+*.joblib
+*.pkl
+*.parquet
+
+# Secrets and local Azure configuration
+config.json
+.env
+.env.*
+!.env.example
+azureml/
+.azure/
+
+# Operating system
+.DS_Store
+Thumbs.db

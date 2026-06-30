@@ -1,0 +1,28 @@
+{
+  "random_state": 42,
+  "target_column": "is_churn",
+  "classification_threshold": 0.5,
+  "psi_warning_threshold": 0.1,
+  "psi_significant_threshold": 0.25,
+  "training_path": "E:\\customer_retention_dissertation_outputs\\customer_retention_train.csv",
+  "validation_path": "E:\\customer_retention_dissertation_outputs\\customer_retention_validation.csv",
+  "test_path": "E:\\customer_retention_dissertation_outputs\\customer_retention_test.csv",
+  "manual_model_path": "E:\\manual_automl_comparison_outputs\\07_selected_manual_pipeline_train_only.joblib",
+  "final_prediction_evidence_path": "E:\\manual_automl_comparison_outputs\\12_final_test_prediction_evidence.csv",
+  "training_rows": 757348,
+  "validation_rows": 94669,
+  "test_rows": 94669,
+  "predictor_count": 29,
+  "simulated_features": [
+    "tx_count",
+    "transaction_history_days",
+    "days_since_last_transaction",
+    "is_auto_renew_mean",
+    "days_since_last_activity",
+    "activity_history_days",
+    "log_count",
+    "plan_list_price_mean",
+    "actual_amount_paid_mean",
+    "latest_payment_method"
+  ]
+}

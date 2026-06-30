@@ -1,0 +1,12 @@
+alert_type,severity,item,observed_value,threshold,recommended_action
+feature_drift,significant,plan_list_price_mean,3.1344030627361636,0.25,"Investigate the feature, confirm data quality and consider model retraining."
+feature_drift,significant,actual_amount_paid_mean,2.741089955719254,0.25,"Investigate the feature, confirm data quality and consider model retraining."
+feature_drift,significant,is_auto_renew_mean,19.80851036632102,0.25,"Investigate the feature, confirm data quality and consider model retraining."
+feature_drift,significant,days_since_last_transaction,0.40914748677204205,0.25,"Investigate the feature, confirm data quality and consider model retraining."
+feature_drift,significant,log_count,2.069993616221178,0.25,"Investigate the feature, confirm data quality and consider model retraining."
+feature_drift,significant,activity_history_days,9.061943343693931,0.25,"Investigate the feature, confirm data quality and consider model retraining."
+prediction_drift,significant,prediction_probability,6.390620268812589,0.1,"Review prediction volumes, performance and model calibration."
+performance_deterioration,significant,roc_auc,0.04224523797575619,0.03,Investigate model decay and evaluate retraining.
+performance_deterioration,significant,average_precision,0.12731504375473812,0.03,Investigate model decay and evaluate retraining.
+performance_deterioration,significant,f1_churn,0.32937935531129836,0.03,Investigate model decay and evaluate retraining.
+prediction_volume,warning,predicted_churn_rate,1.5814801312431643,0.2,"Review campaign capacity, threshold suitability and possible population change."

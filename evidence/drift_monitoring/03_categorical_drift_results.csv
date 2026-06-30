@@ -1,0 +1,9 @@
+comparison,feature,feature_type,psi,drift_severity,ks_statistic,ks_p_value,total_variation_distance,reference_missing_rate,current_missing_rate,missing_rate_change
+training_vs_validation,city,categorical,0.0002659121715698875,stable,,,0.005080485787850291,0.0,0.0,0.0
+training_vs_validation,gender,categorical,4.229004891939781e-05,stable,,,0.002083258796320986,0.0,0.0,0.0
+training_vs_validation,registered_via,categorical,7.011387909908813e-05,stable,,,0.0027349652941865326,0.0,0.0,0.0
+training_vs_validation,latest_payment_method,categorical,0.0002631941731056368,stable,,,0.0028518397079478268,0.0,0.0,0.0
+training_vs_test,city,categorical,0.00026703936672332163,stable,,,0.005675738617206318,0.0,0.0,0.0
+training_vs_test,gender,categorical,3.8314257579833195e-05,stable,,,0.002884258257564762,0.0,0.0,0.0
+training_vs_test,registered_via,categorical,4.4915320537275744e-05,stable,,,0.002841937379276047,0.0,0.0,0.0
+training_vs_test,latest_payment_method,categorical,0.0005409627126877146,stable,,,0.005875559913845147,0.0,0.0,0.0

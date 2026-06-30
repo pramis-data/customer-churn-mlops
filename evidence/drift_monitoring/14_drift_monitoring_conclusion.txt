@@ -1,0 +1,29 @@
+MODEL DRIFT MONITORING CONCLUSION
+
+Observed validation-to-test prediction PSI: 0.0001 (stable).
+Simulated prediction PSI: 6.3906 (significant).
+Original test ROC-AUC: 0.9654.
+Drifted test ROC-AUC: 0.9232.
+Original test average precision: 0.8426.
+Drifted test average precision: 0.7153.
+Original test churn F1: 0.7396.
+Drifted test churn F1: 0.4102.
+Operational alerts triggered: 11.
+
+Highest observed PSI features:
+- training_vs_test / latest_payment_method: PSI=0.0005 (stable)
+- training_vs_test / city: PSI=0.0003 (stable)
+- training_vs_validation / city: PSI=0.0003 (stable)
+- training_vs_validation / latest_payment_method: PSI=0.0003 (stable)
+- training_vs_validation / is_auto_renew_mean: PSI=0.0002 (stable)
+
+Highest simulated PSI features:
+- is_auto_renew_mean: PSI=19.8085 (significant)
+- activity_history_days: PSI=9.0619 (significant)
+- plan_list_price_mean: PSI=3.1344 (significant)
+- actual_amount_paid_mean: PSI=2.7411 (significant)
+- log_count: PSI=2.0700 (significant)
+
+The stress test demonstrates how feature and prediction monitoring can identify changes before performance deterioration becomes operationally significant.
+The simulated scenario is illustrative and should not be interpreted as a forecast of future customer behaviour.
+The locally executable Random Forest pipeline was rescored under drift. The AutoML model should be monitored using the same framework after endpoint deployment or through an isolated Azure scoring environment.

@@ -1,0 +1,2 @@
+model,evaluation_split,accuracy,balanced_accuracy,f1_weighted,roc_auc,log_loss
+Azure AutoML selected model,validation,0.9695570883816244,0.8802460133284113,0.9686842899072603,0.9750967245950936,0.09077888210143659
