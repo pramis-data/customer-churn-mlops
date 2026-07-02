@@ -1,0 +1,14 @@
+{
+  "explained_model": "Azure AutoML Voting Ensemble",
+  "algorithm": "VotingEnsemble",
+  "child_run_id": "silly_nerve_xnvqt9jp",
+  "method": "model-agnostic permutation SHAP",
+  "sample_rows": 100,
+  "background_rows": 40,
+  "feature_count": 29,
+  "threshold": 0.5,
+  "maximum_probability_difference": 7.771561172376096e-16,
+  "mean_probability_difference": 4.276093368282829e-17,
+  "selected_churn_row": 19,
+  "selected_nonchurn_row": 67
+}

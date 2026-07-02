@@ -1,2 +1,2 @@
-model,evaluation_split,accuracy,balanced_accuracy,f1_weighted,roc_auc,log_loss
-Azure AutoML selected model,validation,0.9695570883816244,0.8802460133284113,0.9686842899072603,0.9750967245950936,0.09077888210143659
+model,algorithm,parent_job_name,child_job_name,child_display_name,metric_source,evaluation_split,accuracy,balanced_accuracy,f1_weighted,roc_auc,average_precision_weighted,log_loss
+Azure AutoML Voting Ensemble,VotingEnsemble,automl-riyadh-safe-v3-rai-01,automl-riyadh-safe-v3-rai-01_18,silly_nerve_xnvqt9jp,Azure MLflow child-run metrics,validation,0.9696521564609323,0.8773349300589444,0.9686698145453719,0.9755475621359988,0.9875258269647981,0.09255700745932632

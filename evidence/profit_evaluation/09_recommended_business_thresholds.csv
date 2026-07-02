@@ -1,4 +1,4 @@
 scenario,recommended_model,recommended_threshold,expected_net_profit,customers_contacted,contact_rate,churn_capture_rate,campaign_precision,threshold_selection_source
 conservative,Azure AutoML selected model,1.0,0.0,0,0.0,0.0,,same_test_exploratory
-expected,Azure AutoML selected model,0.33,99822.5,8326,0.0879,0.8178,0.8363,same_test_exploratory
-optimistic,Azure AutoML selected model,0.14,316360.0,10162,0.1073,0.8649,0.7247,same_test_exploratory
+expected,Azure AutoML selected model,0.33,99822.50000000003,8326,0.08794853647973465,0.8178294573643411,0.8362959404275763,same_test_exploratory
+optimistic,Azure AutoML selected model,0.14,316359.99999999994,10162,0.10734242465854715,0.8649283533004464,0.7246604999015942,same_test_exploratory

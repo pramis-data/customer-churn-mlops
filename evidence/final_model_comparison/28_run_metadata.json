@@ -18,14 +18,19 @@
   "manual_selection_rule": "Highest validation average precision, then ROC-AUC, then churn F1",
   "selected_manual_model": "Random Forest",
   "automl_experiment": "customer-retention-riyadh-v3",
-  "automl_child_run": "automl-riyadh-safe-v3-rai-01_1",
-  "final_test_best_average_precision_model": "Azure AutoML selected model",
+  "automl_parent_job": "automl-riyadh-safe-v3-rai-01",
+  "automl_child_job_name": "automl-riyadh-safe-v3-rai-01_18",
+  "automl_child_display_name": "silly_nerve_xnvqt9jp",
+  "automl_registered_model": "automl-riyadh-safe-v3-rai:1",
+  "automl_selected_algorithm": "VotingEnsemble",
+  "automl_model_label": "Azure AutoML Voting Ensemble",
+  "final_test_best_average_precision_model": "Azure AutoML Voting Ensemble",
   "bootstrap_repetitions": 300,
-  "paired_error_p_value": 5.0629549869567753e-306,
+  "paired_error_p_value": 8.354674117486346e-305,
   "manual_shap_sample_size": 2000,
   "manual_shap_probability_method": "direct additive probability",
-  "maximum_manual_shap_probability_difference": 1.6131540547803525e-13,
-  "mean_manual_shap_probability_difference": 1.5300923115330045e-13,
+  "maximum_manual_shap_probability_difference": 1.6142642778049776e-13,
+  "mean_manual_shap_probability_difference": 1.5301008203516542e-13,
   "shared_manual_automl_top_features": [
     "actual_amount_paid_mean",
     "days_since_last_activity",
@@ -35,5 +40,5 @@
     "transaction_history_days",
     "tx_count"
   ],
-  "methodological_note": "Manual candidate models were fitted on training data and selected using validation data. The selected manual pipeline and the selected Azure AutoML pipeline were then evaluated on identical untouched test records. The test set was not used for model selection or threshold optimisation."
+  "methodological_note": "Manual candidate models were fitted on training data and selected using validation data. The selected manual pipeline and the selected Azure AutoML Voting Ensemble pipeline were then evaluated on identical untouched test records. The test set was not used for model selection or threshold optimisation."
 }

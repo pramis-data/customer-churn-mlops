@@ -3,7 +3,7 @@
 ## Model versions
 
 - Manual model: Random Forest pipeline
-- Automated model: Azure AutoML selected classification pipeline
+- Automated model: Azure AutoML Voting Ensemble
 - Decision threshold used for the final statistical comparison: 0.50
 - Random seed: 42
 
@@ -26,16 +26,16 @@ The models should not be used to make decisions about credit, employment, insura
 
 ## Final test performance
 
-| Metric | Random Forest | Azure AutoML |
+| Metric | Random Forest | Azure AutoML Voting Ensemble |
 |---|---:|---:|
 | Accuracy | 0.9464 | 0.9701 |
-| Balanced accuracy | 0.9013 | 0.8813 |
-| Precision for churn | 0.6568 | 0.8803 |
-| Recall for churn | 0.8464 | 0.7731 |
-| F1 for churn | 0.7396 | 0.8232 |
-| ROC-AUC | 0.9654 | 0.9757 |
-| Average precision | 0.8426 | 0.8914 |
-| Log loss | 0.2303 | 0.0896 |
+| Balanced accuracy | 0.9013 | 0.8783 |
+| Precision for churn | 0.6568 | 0.8852 |
+| Recall for churn | 0.8464 | 0.7665 |
+| F1 for churn | 0.7396 | 0.8216 |
+| ROC-AUC | 0.9654 | 0.9759 |
+| Average precision | 0.8426 | 0.8922 |
+| Log loss | 0.2303 | 0.0916 |
 
 ## Explainability
 
@@ -76,3 +76,6 @@ Review or retraining should be considered when one or more of the following occu
 ## Human oversight
 
 Campaign owners should review the selected threshold, capacity, false-positive cost and customer-treatment policy before using predictions operationally.
+
+
+The primary AutoML explanation uses model-agnostic permutation SHAP for the complete Voting Ensemble. Earlier XGBoost SHAP evidence is supplementary only.

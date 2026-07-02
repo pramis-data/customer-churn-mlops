@@ -1,0 +1,11 @@
+{
+  "analysis_scope": "SHAP analysis on a stratified 3,000-row validation sample",
+  "raw_feature_count": 29,
+  "engineered_feature_count": 90,
+  "shap_base_value_raw_margin": -3.157637357711792,
+  "maximum_probability_difference": 5.066394805908203e-07,
+  "dependence_feature": "days_since_last_transaction_MeanImputer",
+  "churn_case_index": 2743,
+  "nonchurn_case_index": 141,
+  "important_note": "Performance metrics in this output describe the stratified SHAP sample, not the full validation set."
+}

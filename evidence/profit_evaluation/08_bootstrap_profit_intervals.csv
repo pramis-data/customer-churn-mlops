@@ -1,7 +1,7 @@
 model,scenario,threshold,bootstrap_iterations,net_profit_lower_95,net_profit_median,net_profit_upper_95,probability_profit_positive
 Azure AutoML selected model,conservative,1.0,300,0.0,0.0,0.0,0.0
-Azure AutoML selected model,expected,0.33,300,96927.74,99788.5,102520.25,1.0
+Azure AutoML selected model,expected,0.33,300,96927.7375,99788.5,102520.25,1.0
 Azure AutoML selected model,optimistic,0.14,300,309503.7,316051.0,323222.4,1.0
 Random Forest,conservative,1.0,300,0.0,0.0,0.0,0.0
-Random Forest,expected,0.64,300,90525.7,93026.5,95988.13,1.0
-Random Forest,optimistic,0.53,300,293668.7,301917.0,310596.1,1.0
+Random Forest,expected,0.64,300,90525.70000000001,93026.50000000001,95988.12500000001,1.0
+Random Forest,optimistic,0.53,300,293668.7,301916.99999999994,310596.1,1.0

@@ -42,5 +42,5 @@ def test_final_comparison_contains_both_models():
 
     assert set(comparison["model"]) == {
         "Random Forest",
-        "Azure AutoML selected model",
+        "Azure AutoML Voting Ensemble",
     }

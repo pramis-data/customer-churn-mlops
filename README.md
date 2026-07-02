@@ -18,14 +18,16 @@ The technical workflow covered:
 
 ## Final same-test performance
 
-| Metric | Random Forest | Azure AutoML |
+| Metric | Random Forest | Azure AutoML Voting Ensemble |
 |---|---:|---:|
 | Accuracy | 0.9464 | 0.9701 |
-| ROC-AUC | 0.9654 | 0.9757 |
-| Average precision | 0.8426 | 0.8914 |
-| Churn F1 | 0.7396 | 0.8232 |
-| Precision | 0.6568 | 0.8803 |
-| Recall | 0.8464 | 0.7731 |
+| Balanced accuracy | 0.9013 | 0.8783 |
+| Precision for churn | 0.6568 | 0.8852 |
+| Recall for churn | 0.8464 | 0.7665 |
+| F1 for churn | 0.7396 | 0.8216 |
+| ROC-AUC | 0.9654 | 0.9759 |
+| Average precision | 0.8426 | 0.8922 |
+| Log loss | 0.2303 | 0.0916 |
 
 Azure AutoML produced the stronger overall accuracy, precision, F1, ROC-AUC and average precision. The Random Forest achieved higher recall and balanced accuracy, showing a different operational trade-off.
 
@@ -102,3 +104,6 @@ Raw customer-level datasets, saved production models, Azure configuration files 
 - Profit thresholds were selected using the available final test predictions and require future validation.
 - The drift stress test was synthetic and severe; it was not a forecast of real customer behaviour.
 - The local drift stress test rescored the Random Forest pipeline. Azure AutoML should be monitored through its isolated scoring environment or deployed endpoint.
+
+
+The primary AutoML explanation uses model-agnostic permutation SHAP for the complete Voting Ensemble. Earlier XGBoost SHAP evidence is supplementary only.

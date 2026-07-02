@@ -1,0 +1,7 @@
+model,scenario,maximum_net_profit,near_optimal_threshold_min,near_optimal_threshold_max,number_of_near_optimal_thresholds
+Azure AutoML selected model,conservative,0.0,1.0,1.0,1
+Azure AutoML selected model,expected,99822.50000000003,0.15,0.59,45
+Azure AutoML selected model,optimistic,316359.99999999994,0.07,0.45,39
+Random Forest,conservative,0.0,1.0,1.0,1
+Random Forest,expected,93011.50000000003,0.55,0.75,21
+Random Forest,optimistic,302218.0,0.44,0.68,25

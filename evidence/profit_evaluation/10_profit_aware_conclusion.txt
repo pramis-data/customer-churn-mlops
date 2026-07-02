@@ -1,0 +1,15 @@
+PROFIT-AWARE THRESHOLD EVALUATION
+
+Analysis mode: exploratory_same_test_sensitivity
+Threshold step: 0.010
+Default comparison threshold: 0.50
+
+Conservative scenario: Azure AutoML selected model at threshold 1.00; expected net profit £0.00; contact rate 0.00%; churn capture rate 0.00%.
+Expected scenario: Azure AutoML selected model at threshold 0.33; expected net profit £99,822.50; contact rate 8.79%; churn capture rate 81.78%.
+Optimistic scenario: Azure AutoML selected model at threshold 0.14; expected net profit £316,360.00; contact rate 10.73%; churn capture rate 86.49%.
+
+The financial results are conditional on the retained-customer value, intervention effectiveness and campaign cost assumptions.
+They should therefore be interpreted as scenario-based decision support rather than audited company profit forecasts.
+
+Methodological limitation: the same test prediction file was used to identify and evaluate the profit-maximising thresholds.
+The thresholds are therefore post-hoc sensitivity results and should be validated on future or separate validation data before deployment.
