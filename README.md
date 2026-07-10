@@ -106,4 +106,5 @@ Raw customer-level datasets, saved production models, Azure configuration files 
 - The local drift stress test rescored the Random Forest pipeline. Azure AutoML should be monitored through its isolated scoring environment or deployed endpoint.
 
 
-The primary AutoML explanation uses model-agnostic permutation SHAP for the complete Voting Ensemble. Earlier XGBoost SHAP evidence is supplementary only.
+The primary AutoML explanation uses model-agnostic permutation SHAP for the complete Voting Ensemble.
+
